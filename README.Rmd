@@ -1,0 +1,26 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+``` {r, echo = F}
+
+library(data.table)
+
+dados <- readRDS('C:/Users/meval/Dropbox/Jurimetria/acordaos_completos_dt.rds')
+
+```
+
+
+## Dados coletados
+
+``` {r}
+
+head(dados)
+
+```
+
